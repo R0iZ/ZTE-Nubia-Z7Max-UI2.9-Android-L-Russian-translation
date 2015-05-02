@@ -3,7 +3,7 @@
 	<string name="app_name">Умный чехол</string>
     <string name="date_format">EEE, d MMMM</string>
     <string name="smartface_setting_title">Умный чехол</string>
-    <string name="title_enable_smartface_preference">Функия умного чехла</string>
+    <string name="title_enable_smartface_preference">Функция умного чехла</string>
     <string name="enable_smartface_summary">Включите функцию, чтобы настроить</string>
     <string name="title_enable_smartface_window_preference">Умный чехол</string>
     <string name="enable_smartface_window_summary">Чехол с интерактивным окном и функцией быстрой разблокировки</string>
@@ -20,4 +20,15 @@
     <string name="smartface_function_info_1">Интерактивное окно позволяет отображать дату, время, управлять музыкой и будильником.</string>
     <string name="smartface_function_info_2">Вы можете увидеть пропущенные события в интерактивном окне.</string>
     <string name="music_no_track_tips">Нет плейлиста</string>
+	    <string name="settings_lattice_ok_button">OK</string>
+    <string name="settings_lattice_answer_or_hangup_summary">Если есть входящий вызов, когда крышка закрыта, откройте крышку, чтобы ответить на вызов. Если вы разговариваете, когда крышка закрыта, откройте и закройте крышку, чтобы сделать отбой</string>
+    <string name="title_screen_sliding_preference">Пальцем вверх/вниз на поверхности крышки для ответа на вызов</string>
+    <string name="title_edge_sliding_preference">Пальцем вверх/вниз по краю экрана, чтобы ответить на вызов</string>
+    <string name="title_open_answer_or_hangup_preference">Откройте и закройте крышку, ответа (отбоя)</string>
+    <string name="open_answer_or_hangup_summary">После входящего звонка откройте и закройте крышку, чтобы ответить на вызов; во время вызова откройте и закройте крышку, чтобы сделать отбой</string>
+    <string name="screen_slide_summary">Если есть входящий вызов, когда крышка закрыта, проведите пальцем вниз по поверхности крышки, чтобы ответить на вызов; Проведите пальцем по поверхности крышки, чтобы отклонить вызов</string>
+    <string name="init_set">Настройка</string>
+    <string name="init_delay_set">Не запрашивать снова</string>
+    <string name="smarface_init_tips">Добро пожаловать в Умный чехол Нубия. Для того, чтобы получить лучший опыт использования, сделайте вначале соответствующие настройки</string>
+    <string name="exception_exit_info">Нажмите и удерживайте клавишу Громкость - и клавишу Меню для выхода из Умный чехол</string>
 </resources>
