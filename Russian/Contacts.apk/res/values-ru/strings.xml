@@ -133,7 +133,7 @@
     <string name="noContactsHelpText">"Нет контактов для показа.
 
 Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и выберите один из вариантов.
- 
+
 "<b><font fgcolor="#ffffffff"><li>"Аккаунты: добавление или настройка аккаунта с контактами, которые можно синхронизировать с телефоном.
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Новый контакт: добавление контакта.
@@ -142,7 +142,7 @@
 "</li></font></b></string>
     <string name="noContactsHelpTextWithSync">"Нет контактов для показа. Если вы только что добавили аккаунт, синхронизация контактов может занять несколько минут.
 
-Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и выберите один из вариантов.
+Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и выберите один из вариантов
 
 "<b><font fgcolor="#ffffffff"><li>"Аккаунты: добавление или настройка аккаунта с контактами, которые можно синхронизировать с телефоном.
 "</li></font></b>"
@@ -155,7 +155,7 @@
     <string name="noContactsNoSimHelpText">"Нет контактов для показа.
 
 Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и выберите один из вариантов.
- 
+
 "<b><font fgcolor="#ffffffff"><li>"Аккаунты: добавление или настройка аккаунта с контактами, которые можно синхронизировать с телефоном.
 "</li></font></b>" 
 "<b><font fgcolor="#ffffffff"><li>"Новый контакт: добавление контакта.
@@ -164,7 +164,7 @@
 "</li></font></b></string>
     <string name="noContactsNoSimHelpTextWithSync">"Нет контактов для показа. Если вы только что добавили аккаунт, синхронизация контактов может занять несколько минут.
 
-Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и выберите один из вариантов.
+Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и выберите один из вариантов
 
 "<b><font fgcolor="#ffffffff"><li>"Аккаунты: добавление или настройка аккаунта с контактами, которые можно синхронизировать с телефоном.
 "</li></font></b>"
@@ -179,9 +179,9 @@
 Чтобы сделать контакт избранным,
 
         "<li>нажмите вкладку <b>Контакты</b>";
-"</li>" 
+"</li>"
 "<li>"нажмите контакт, который нужно сделать избранным;
-"</li>" 
+"</li>"
 "<li>"нажмите звездочку возле имени контакта.
 "</li></string>
     <string name="dialer_useDtmfDialpad">Использовать тональный набор</string>
@@ -259,7 +259,7 @@
     <string name="confirm_export_title">Экспорт контактов</string>
     <string name="confirm_export_message">Список контактов будет экспортирован в файл \"%s\".</string>
     <string name="exporting_contact_failed_title">Сбой экспорта</string>
-    <string name="exporting_contact_failed_message">"Не удалось экспортировать данные.
+    <string name="exporting_contact_failed_message">"Не удалось экспортировать данные
 Причина: %s"</string>
     <string name="fail_reason_no_exportable_contact">Нет контактов для экспорта.</string>
     <string name="fail_reason_too_many_vcard">Слишком много файлов VCard на SD-карте.</string>
@@ -415,9 +415,9 @@
     <string name="pick_new_photo">Выбрать из Галереи</string>
     <string name="locale_change_in_progress">Список контактов обновляется после смены языка интерфейса.</string>
     <string name="upgrade_in_progress">Список контактов обновляется...</string>
-    <string name="upgrade_out_of_memory">"Контакты обновляются.
+    <string name="upgrade_out_of_memory">"Контакты обновляются.
 
-Для этого требуется около %s МБ внутренней памяти.
+Для этого требуется около %s МБ внутренней памяти.
 
 Выберите подходящую опцию:"</string>
     <string name="upgrade_out_of_memory_uninstall">Удалить некоторые приложения</string>
@@ -604,7 +604,7 @@
     <string name="new_card">SIM карта</string>
     <string name="no_card">SIM карта недоступна.</string>
     <string name="new_card_contact">Контакты SIM карты</string>
-    <string name="notification_text_for_star">Контакты сохранены</string>
+    <string name="notification_text_for_star">Добавлен в избранное</string>
     <string name="mutil_satr_title">Просмотр контакта</string>
     <string name="dr_menu_star">Просмотр</string>
     <string name="discard_for_star">Просмотр контактов</string>
@@ -726,13 +726,15 @@
     <string name="all_repeat">Полная копия</string>
     <string name="part_repeat">Частичная копия</string>
     <string name="no_merge_contacts">Нет дублирующихся контактов</string>
+	<string name="no_merge_contacts_for_all">"Нет полностью дублированных контактов
+Нажмите кнопку, чтобы объединить частичные дубликаты контактов"</string>
     <string name="warnning">Внимание</string>
     <string name="confirm_merge_dialog_msg">Вы действительно хотите объединить?</string>
     <string name="merge_is_working">Объединение…</string>
     <string name="merge_success">%d контактов объединено.</string>
     <string name="merge_fail">Ошибка объединения.</string>
     <string name="merge_rules_show_title">Внимание</string>
-    <string name="merge_rules_show">"1.Полная копия контакта имеет общее имя и номер мобельного.
+    <string name="merge_rules_show">"1.Полная копия контакта имеет общее имя и номер мобильного.
 
 2.Частичная копия контакта имеет общее имя, но разные номера телефонов.
 
@@ -755,10 +757,198 @@
     <string name="ContactSettingsActivity.account">Учетная запись</string>
     <string name="ContactSettingsActivity.import_export_contacts">Импорт/Экспорт контактов</string>
     <string name="ContactSettingsActivity.import_from_phone_card">Импорт из карты памяти телефона</string>
+	<string name="ContactSettingsActivity.import_from_phone_card1">Импорт из SIM-карты 1</string>
+    <string name="ContactSettingsActivity.import_from_phone_card2">Импорт из SIM-карты 2</string>
     <string name="ContactSettingsActivity.import_from_phone_memory">Импорт из памяти телефона</string>
     <string name="ContactSettingsActivity.export_to_phone_card">Экспорт на карту памяти телефона</string>
+	<string name="ContactSettingsActivity.export_to_phone_card1">Экспорт в SIM-карту 1</string>
+    <string name="ContactSettingsActivity.export_to_phone_card2">Экспорт в SIM-карту 2</string>
     <string name="ContactSettingsActivity.export_to_phone_memory">Экспорт в память телефона</string>
     <string name="card_insert_nf_title">Установлена новая карта!</string>
     <string name="card_insert_nf_text">Новая карта установлена, нажмите для импорта контактов с карты.</string>
     <string name="card_insert_dialog_text">Установлена новая карта, импортировать контакты с карты?</string>
+    <string name="card_insert_dialog_import">Импорт</string>
+    <string name="dialpadHintText">Набрать или использовать Т9 поиск</string>
+    <string name="showDialpadHintText">Нажмите для набора</string>
+    <string name="ContactNoSupport">Приложение Контакты не поддерживает этот тип файла</string>
+    <string name="delete_group_alert_message">Группа будет удалена, но члены в группе не будут удалены. Продолжить?</string>
+    <string name="savePhoneNumberDialogTitle">Сохранить номер телефона</string>
+    <string name="saveToExistContact">Добавить в контакты</string>
+    <string name="ContactDetailFragment.Copy_Number">Копировать номер</string>
+    <string name="ContactDetailFragment.Call_Before_Edit">Изменить номер перед вызовом</string>
+    <string name="ContactDetailFragment.Please_edit_number">Пожалуйста, измените номер</string>
+    <string name="ContactDetailFragment.Call">Вызов</string>
+    <string name="noInformation">Не найдено никакой информации.</string>
+    <string name="find_nothing">Нет карточки контакта</string>
+    <string name="DefaultContactBrowseListFragment.search_not_found_create_contact">Создать новый контакт</string>
+    <string name="DefaultContactBrowseListFragment.illegal_query_text">Неверный ввод</string>
+    <string name="MultiSelectorFragment.no_select_member_return">Не выбран контакт, возврат</string>
+    <string name="delete_group_dialog_message_new">Группа будет удалена, но контакты из группу остануться.</string>
+    <string name="yesterday">Вчера</string>
+    <string name="set_voicemail">Настроить голосовую почту</string>
+    <string name="dialog_voicemail_not_ready_message2">Голосовая почта не настроена, вы хотите настроить?</string>
+    <string name="contact_is_gone">Контакт был удален, не может быть сохранен.</string>
+    <string name="system_group_title">Системная группа</string>
+    <string name="dialpad_key_keyboard">Клавиатура</string>
+    <string name="dialpad_key_more">еще</string>
+    <string name="dialpad_display_tip">Показать только пропущенные все вызовы</string>
+    <string name="dialpad_display_all">Показать все вызовы</string>
+    <string name="local_group_title">Локальная группа</string>
+    <string name="menu_yulore_page">Желтые страницы</string>
+    <string name="menu_group">Группы</string>
+    <string name="menu_quick_search">Быстрый поиск</string>
+    <string name="menu_more">Еще</string>
+    <string name="menu_scan">Сканирование визитных карточек</string>
+    <string name="send_sms">Отправить сообщение</string>
+    <string name="calllog_select_item_title">Выбраны:</string>
+    <string name="temp_contact_detail_phone">телефон</string>
+    <string name="temp_contact_detail_email">почта</string>
+    <string name="temp_contact_detail_website">Веб-сайт</string>
+    <string name="temp_contact_detail_history">Истории контактов</string>
+    <string name="temp_contact_call_incoming">входящие</string>
+    <string name="temp_contact_call_outgoing">исходящие</string>
+    <string name="temp_contact_call_missed">пропущенные</string>
+    <string name="temp_contact_call_voicemail">голосовая почта</string>
+    <string name="temp_contact_title">Несохраненный контакт</string>
+    <string name="temp_contact_view">Просмотр истории контактов</string>
+    <string name="contact_history_inbox">Получен</string>
+    <string name="contact_history_outbox">Отправлен</string>
+    <string name="contact_history_title">История контакта</string>
+    <string name="no_contact_history_tip">Нет истории контакта</string>
+    <string name="no_call_log_tip">Нет звонков</string>
+    <string name="menu_display_setting">Показать/скрыть контакты</string>
+    <string name="menu_advance">Дополнительные опции</string>
+    <string name="name">Имя</string>
+    <string name="mobile">Мобильный</string>
+    <string name="work">Работа</string>
+    <string name="Home">Дом</string>
+    <string name="work_fax">Факс</string>
+    <string name="home_fax">Факс</string>
+    <string name="other_fax">Др. факс</string>
+    <string name="other">Другой</string>
+    <string name="home">Главная</string>
+    <string name="custom">Пользовательские</string>
+    <string name="menu_copy_contact_to_text">Копировать текст</string>
+    <string name="contact_save_to">Сохранить в</string>
+    <string name="select_group_membership">Выберите группу</string>
+    <string name="contact_history">История контакта</string>
+    <string name="contact_detail">Просмотр истории контакта</string>
+    <string name="menu_timeSequnce">Временная последовательность</string>
+    <string name="noTimes">Нет контактной информации</string>
+    <string name="noTimesSec">""Время" будет отображаться согласно частоте контактов контактный телефон
+"</string>
+    <string name="multi_select_calllog">Частые</string>
+    <string name="multi_select_contact">Контакты</string>
+    <string name="multi_select_favorite">Избранное</string>
+    <string name="multi_select_group">Группы</string>
+    <string name="group_sms">СМС</string>
+    <string name="group_email">Почта</string>
+    <string name="fax">Факс</string>
+    <string name="menu_edit_group_action_bar">Редактировать Группу</string>
+    <string name="copy_number_text">Скопировать номер</string>
+    <string name="copy_email_text">Скопировать е-мейл</string>
+    <string name="set_default_number">Установить номер по умолчанию</string>
+    <string name="clear_default_number">Очистить номер по умолчанию</string>
+    <string name="set_default_email">Установить почтовый ящик по умолчанию</string>
+    <string name="clear_default_email">Очистить почтовый ящик по умолчанию</string>
+    <string name="lunar">Лунный календарь</string>
+    <string name="gregorian">Григорианский календарь</string>
+    <string name="default_save_to_local_type">Локальная учетная запись</string>
+    <string name="title_delete_group">Удалить Группу</string>
+    <string name="change_accounts">Некоторая информация может быть потеряна при изменении учетных записей</string>
+    <string name="select_contact_tip">Выбрать контакты</string>
+    <string name="switch_card">Переключить на карту %d</string>
+    <string name="local_label_new">Локальный</string>
+    <string name="not_enough_space">"Не хватает памяти, нельзя экспортировать контакты."</string>
+    <string name="deleting_local_contacts">Удаление локальных контактов</string>
+    <string name="deleting_sim_contacts">Удаление контактов карты</string>
+    <string name="no_scan_application">Нет службы сканирования визиток</string>
+    <string name="no_availabel_SD">SD была извлечена</string>
+    <string name="tip_no_select_contacts">Не выбраны контакты.</string>
+    <string name="tip_no_delete_contacts">Контакты не могут быть удалены.</string>
+    <string name="tip_no_import_contacts">Контакты не могут быть импотрированы.</string>
+    <string name="tip_no_export_contacts">Контакты не могут быть экспортированы.</string>
+    <string name="tip_no_group_contacts">Нет группы контактов.</string>
+    <string name="sim_card_not_inserted">SIM-карта не вставлена!</string>
+    <string name="sim_card_not_found">SIM-карта не найдена!</string>
+    <string name="continue_merge_part_contacts">Продолжить объединение контактов</string>
+    <string name="repeat_contacts_detail">Найти %d группы полностью повторяющихся контактов</string>
+    <string name="part_contacts_detail">Найти повторяющиеся контакты группы %d</string>
+    <string name="import_to_merge_hint">Объединить контакты</string>
+    <string name="import_to_merge_title">Импортировать контакты</string>
+    <string name="import_to_merge_text">Нажмите здесь, чтобы объединить контакты</string>
+    <string name="reboot_will_reset">, после перезагрузки не удастся</string>
+    <string name="choose_phone_number">Выбрать номер телефона</string>
+    <string name="remember_choice">Запомнить выбор.</string>
+    <string name="str_email_home">Дом</string>
+    <string name="str_email_work">Работа</string>
+    <string name="temp_contact_call_rejected">Отклонено</string>
+    <string name="type_rejected">Отклоненный звонок</string>
+    <string name="z_music_can_not_find">Музыкальное приложение Нубия не найдено, не удалось изменить рингтон!</string>
+    <string name="sim_card_busy">SIM-карта загружается, пожалуйста подождите.</string>
+    <string name="confirm_export_message_storage">Список контактов будет экспортирован в файл: %s, файл находится в корневом каталоге хранения телефона.</string>
+    <string name="app_name">Контакты Nubia</string>
+    <string name="double_card_setting">Параметры СИМ-карт</string>
+    <string name="switch_card_title">Выберать телефонную карточку</string>
+    <string name="unknown_card">Неизвестный</string>
+    <string name="switch_card_number">Перекличить на карту %s</string>
+    <string name="switch_card_view_first_indication">Нажмите эту кнопку, чтобы выбрать карточку этого контакта</string>
+    <string name="about_card_title">Про</string>
+    <string name="content_description_recent_call">Последние звонки. %s. Нажмите, чтобы перезвонить</string>
+    <string name="content_description_recent_call_type_incoming">Входящие звонки</string>
+    <string name="content_description_recent_call_type_missed">Пропущенные звонки</string>
+    <string name="content_description_recent_call_type_outgoing">Исходящие звонки</string>
+    <string name="content_description_recent_sms">Последние сообщения. %s. нажмите, чтобы ответить</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
+    <string name="description_action_menu_add_star">Добавлено в избранное</string>
+    <string name="description_action_menu_remove_star">Удалить из избранного</string>
+    <string name="untitled_event">(Безимянное событие)</string>
+    <string name="tomorrow_at_time_fmt">Завтра в %s</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="today_at_time_fmt">Сегодня в %s</string>
+    <string name="today">Сегодня</string>
+    <string name="recent_card_title">Недавний</string>
+    <string name="quickcontact_transparent_view_description">Нажмите, чтобы вернуться к предыдущему экрану</string>
+    <string name="quickcontact_add_phone_number">Добавить номер телефона</string>
+    <string name="quickcontact_add_email">Добавить емейл</string>
+    <string name="message_from_you_prefix">Я: %s</string>
+    <string name="menu_addtoContacts">Добавить в контакты</string>
+    <string name="menu_quickcontact_newContacs">Новый контакт</string>
+    <string name="launcherActivityLabel">Контакты</string>
+    <string name="header_website_entry">Вебсайт</string>
+    <string name="header_relation_entry">Отношения</string>
+    <string name="header_organization_entry">Организация</string>
+    <string name="header_note_entry">Заметка</string>
+    <string name="header_nickname_entry">Прозвище</string>
+    <string name="header_im_entry">IM</string>
+    <string name="header_event_entry">Событие</string>
+    <string name="expanding_entry_card_view_see_more">Посмотреть больше</string>
+    <string name="expanding_entry_card_view_see_less">Скрыть детали</string>
+    <string name="expanding_entry_card_view_see_all">Просмотреть все</string>
+    <string name="description_video_call">Сделать видео звонок</string>
+    <string name="text_email_entry">Почтовый ящик</string>
+    <string name="text_phone_entry">Мобильный телефон</string>
+    <string name="detail_reject_header">Было отказано</string>
+    <string name="edit_before_call">Правка номера перед звонком</string>
+    <string name="quickcontact_cancel">Отмена</string>
+    <string name="recent_time">Последние ссылки</string>
+    <string name="menu_timeClear">Очистить данные времени</string>
+    <string name="main_list_long_click_menu_starred">Избранное</string>
+    <string name="main_list_long_click_menu_cancel_starred">Отмена избранного</string>
+    <string name="main_list_long_click_menu_edit">Правка</string>
+    <string name="main_list_long_click_menu_delete">Удалить</string>
+    <string name="not_enough_space_save_contact">"Недостаточно места в памяти телефона для сохранения контакта."</string>
+    <string name="group_name">Имя группы</string>
+    <string name="notification_text_for_cancel_star">Отмена избранного</string>
+    <string name="ring_title">Персональный звонок</string>
+    <string name="account_pre">Сохранить в</string>
+    <string name="yulore_page_clear_tag_describe">Очистить тег</string>
+    <string name="yulore_page_is_my_tag">" Мой тег"</string>
+    <string name="yulore_page_service_unavailable">Служба Желтые страницы недоступна</string>
+    <string name="menu_mark_contact">Тег</string>
+    <string name="tip_no_favorite">Не Избранный.</string>
+    <string name="selected_contact_count">Выбранных элементов %d</string>
+    <string name="contact_tooltip">Нажмите изображение, чтобы увидеть все номера или нажмите и удерживайте для изменения порядка</string>
+    <string name="list_delimeter">", "</string>
+    <string name="remove_contact">Удалить</string>
 </resources>
