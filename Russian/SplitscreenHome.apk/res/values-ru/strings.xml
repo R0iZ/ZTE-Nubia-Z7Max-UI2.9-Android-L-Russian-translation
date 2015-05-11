@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Рабочий стол разделенного экрана</string>
+    <string name="enter_splitscreen">Войти в разделенный экран</string>
+    <string name="welcome_splitscreen_string1">"Игровой
+Чат"</string>
+    <string name="welcome_splitscreen_string2">"Чтение
+Сообщений"</string>
+    <string name="welcome_splitscreen_string3">Умное перетаскивание</string>
+    <string name="home">Рабочий стол</string>
+</resources>
