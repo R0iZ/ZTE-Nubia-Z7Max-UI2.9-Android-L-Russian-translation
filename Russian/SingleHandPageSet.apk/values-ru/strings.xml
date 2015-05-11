@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Режим одной руки</string>
+    <string name="action_settings">Настройки</string>
+    <string name="welcome_to_single">Добро пожаловать в режим одной руки</string>
+    <string name="welcome_to_single2">Нажмите экран, чтобы включить ваш режим одной руки</string>
+    <string name="test_single1">Приложите свой палец к экрану</string>
+    <string name="test_single2">Выпрямите палец</string>
+    <string name="test_single3">Нарисуйте дуги на экране</string>
+    <string name="test_single_invalid">Нарисуйте дуги на экране</string>
+    <string name="show_single">Режим одной рукои, наиболее подходящий вашей руке</string>
+    <string name="try_more">Попробовать снова</string>
+    <string name="begin">Начать использовать</string>
+    <string name="welcome_to_begin">Добро пожаловать в режим одной руки</string>
+</resources>
