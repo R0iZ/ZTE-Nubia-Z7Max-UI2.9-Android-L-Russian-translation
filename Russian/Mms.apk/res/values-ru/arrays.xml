@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="empty_subject_strings">
+        <item>без темы</item>
+    </string-array>
+	    <string-array name="pref_slideshow_open_mode_choices">
+        <item>Мобильные газеты</item>
+        <item>Слайд-шоу</item>
+    </string-array>
+    <string-array name="pref_slideshow_open_mode_values">
+        <item>ГАЗЕТА</item>
+        <item>СЛАЙДШОУ</item>
+    </string-array>
+    <string-array name="default_phrases">
+        <item>Как дела?</item>
+        <item>Спасибо</item>
+        <item>Давай встретимся.</item>
+        <item>Ты где?</item>
+        <item>Что делаешь?</item>
+        <item>Что думаешь?</item>
+        <item>Еду домой</item>
+        <item>Спишь?</item>
+        <item>Да</item>
+        <item>нет</item>
+        <item>Я в метро</item>
+        <item>Позже</item>
+        <item>Ты лучший</item>
+        <item>Позвони мне</item>
+        <item>Спасибо огромное!</item>
+    </string-array>
+    <string-array name="select_music_items">
+        <item>Локальное аудио</item>
+        <item>Рингтон</item>
+        <item>Записи</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 секунда</item>
+        <item>2 сек.</item>
+        <item>3 сек.</item>
+        <item>4 сек.</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>Другое</item>
+    </string-array>
+</resources>
