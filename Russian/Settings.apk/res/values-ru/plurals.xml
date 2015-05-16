@@ -31,7 +31,7 @@
     <plurals name="wrong_pin_code">
         <item quantity="other">Неверный PIN-код. Осталось попыток: %d.</item>
         <item quantity="one">Неверный PIN-код. Осталось попыток: %d. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
-    </plurals>	
+    </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">Приложений с доступом к уведомлениям: %d</item>
         <item quantity="one">Приложений с доступом к уведомлениям: %d</item>

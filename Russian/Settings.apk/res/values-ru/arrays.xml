@@ -543,7 +543,7 @@
         <item>256K</item>
         <item>1M</item>
     </string-array>
-   <string-array name="select_logd_size_summaries">
+    <string-array name="select_logd_size_summaries">
         <item>64K в буфере журнала</item>
         <item>256 в буфере журнала</item>
         <item>1M в буфере журнала</item>
@@ -721,7 +721,7 @@
         <item>Тихая ночь</item>
         <item>Королевство Снов</item>
         <item>Родной город</item>
-        <item>"Вечеринка Ангелов"</item>
+        <item>Вечеринка Ангелов</item>
     </string-array>
     <string-array name="deep_sleep_tel_white_entries">
         <item>Нет</item>
