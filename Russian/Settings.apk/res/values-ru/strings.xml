@@ -1157,7 +1157,7 @@ Wi-Fi помощника"</string>
     <string name="location_sources_heading">Определение местоположения</string>
     <string name="about_settings">О телефоне</string>
     <string name="about_settings_summary">Просмотр юридической информации, состояния планшетного ПК и версии ПО</string>
-    <string name="legal_information">Используйте %s для управления сетевыми подключениями?</string>
+    <string name="legal_information">Юридическая информация</string>
     <string name="contributors_title">Участники</string>
     <string name="regulatory_information">Сертификация</string>
     <string name="copyright_title">Авторские права</string>
