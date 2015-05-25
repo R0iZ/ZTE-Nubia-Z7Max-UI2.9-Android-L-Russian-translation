@@ -37,7 +37,7 @@
         <item quantity="one">Приложений с доступом к уведомлениям: %d</item>
     </plurals>
     <plurals name="manage_condition_providers_summary_nonzero">
-        <item quantity="other">%d приложений обеспечивают условия</item>
-        <item quantity="one">%d приложение обеспечивает условия</item>
+        <item quantity="other">Несколько приложений (%d) задают условия</item>
+        <item quantity="one">%d приложение задает условия</item>
     </plurals>
 </resources>
