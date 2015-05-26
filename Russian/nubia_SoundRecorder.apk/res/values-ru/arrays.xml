@@ -5,6 +5,11 @@
         <item>Стандартное 128kbps</item>
         <item>Экономия места 64kbps</item>
     </string-array>
+	    <string-array name="record_quality_prompt">
+        <item>Высокое</item>
+        <item>Стандартное</item>
+        <item>Экономия места</item>
+    </string-array>
     <string-array name="select_save_stroage">
         <item>Память телефона</item>
         <item>SD-карта</item>
